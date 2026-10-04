@@ -148,3 +148,115 @@ Risk score
 Risk level
 Security recommendations
 Assessment limitations
+
+🔐 Security & Ethical Use
+
+This project is intended for:
+
+Cybersecurity education
+Security research
+Defensive security assessment
+Authorized penetration testing
+Local laboratory environments
+Learning vulnerability assessment concepts
+❌ Do NOT use this tool to scan:
+Systems you do not own
+Networks without authorization
+Public infrastructure without permission
+College/company systems without approval
+Third-party servers without explicit authorization
+
+Unauthorized scanning may violate laws, policies, or terms of service.
+
+
+⚠️ Limitations
+
+This project is an educational vulnerability assessment tool and should not be considered a replacement for professional security assessment platforms.
+
+Important limitations include:
+
+CVE Matching
+
+CVE results are based on product/version keyword matching.
+
+A returned CVE does not automatically mean the target is vulnerable.
+
+Further verification is required.
+
+Risk Score
+
+The project's 0–100 score is a heuristic designed for prioritization.
+
+It is not CVSS and should not be treated as an industry-standard vulnerability score.
+
+Nmap NSE Results
+
+NSE output depends on:
+
+Target configuration
+Network accessibility
+Nmap version
+Available NSE scripts
+Service responses
+HTTP Security Headers
+
+Missing security headers indicate potential configuration weaknesses but do not necessarily represent exploitable vulnerabilities.
+
+🔮 Future Improvements
+
+Planned improvements may include:
+
+ JSON report export
+ CSV report export
+ Improved CVE correlation
+ CVSS-based prioritization
+ More comprehensive HTTP security checks
+ SSL/TLS configuration analysis
+ Subdomain enumeration
+ DNS security checks
+ Configurable scan profiles
+ Scan history
+ Improved logging
+ Authentication and authorization checks
+ Web-based dashboard
+ Dockerized deployment
+ Unit tests
+ CI/CD security testing
+🎯 Learning Objectives
+
+This project was developed to gain practical understanding of:
+
+Network reconnaissance
+Port scanning
+Service enumeration
+Vulnerability assessment
+Nmap NSE
+CVE intelligence
+HTTP security
+Risk assessment
+Security reporting
+Python automation
+API integration
+Git & GitHub
+Defensive cybersecurity practices
+
+
+This project uses open-source technologies and publicly available vulnerability intelligence, including:
+
+Nmap
+Python
+NVD
+Requests
+python-nmap
+
+📜 License
+This project is intended primarily for educational and authorized security-testing purposes.
+
+
+⚠️ Disclaimer
+
+CyberSecurityScanner is intended for educational purposes, defensive security research, and authorized security testing only.
+
+The author is not responsible for any misuse of this software.
+
+Always obtain explicit permission before scanning a system or network that you do not own.
